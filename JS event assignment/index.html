@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JS Event Assignment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="webpage">
+  <h1> Welcome to JS Event Playground!</h1>
+
+  <!-- Event Handling -->
+  <button id="colorBtn">Click Me</button>
+  <p id="hoverText">Hover over me!</p>
+  <p>Type something: <input type="text" id="keyInput" /></p>
+  <button id="secretBtn">Double-Click or Long Press Me!</button>
+
+  <!-- Image Gallery -->
+  <div class="gallery">
+    <img id="galleryImage" src="workspace.jpg" alt="Gallery" />
+    <button id="prev">Prev</button>
+    <button id="next">Next</button>
+  </div>
+
+  <!-- Tabs -->
+  <div class="tabs">
+    <button class="tabBtn" data-tab="1">Tab 1</button>
+    <button class="tabBtn" data-tab="2">Tab 2</button>
+  </div>
+  <div class="tabContent" id="tab1">Below is a  functional homepage that enables<br>
+     you to experience the prestiage advantage of Js.</div>
+  <div class="tabContent" id="tab2" style="display:none;">thanks for visiting the webpage<br> 
+    please leave your details below for reach out.</div>
+
+  <!-- Form -->
+  <form id="signupForm">
+    <h2>Signup Form</h2>
+    <input type="text" id="name" placeholder="Name" required />
+    <input type="email" id="email" placeholder="Email" required />
+    <input type="password" id="password" placeholder="Password" required />
+    <button type="submit">Submit</button>
+    <div id="formFeedback"></div>
+  </form>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
